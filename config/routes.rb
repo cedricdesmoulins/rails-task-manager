@@ -17,6 +17,4 @@ patch "tasks/:id", to: "tasks#update"
 
 #5. Destroy Tasks
 delete "tasks/:id", to: "tasks#destroy"
-
-
 end
